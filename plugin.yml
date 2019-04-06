@@ -1,17 +1,19 @@
+name: cli
 image: codefresh/cli
+tag: 0.1.0
 version: 0.1.0
 description: Operate on Codefresh resources
-maintainers:
-  - name: Itay Shakury
-  - email: i.shakury@codefresh.io
 categories:
-  - Featured
+- Featured
 keywords:
-  - cli
+- cli
 sources:
-  - https://github.com/codefresh-io/cli
-icon: https://i0.wp.com/www.macobserver.com/wp-content/uploads/2016/07/Terminal-icon.jpg
+- https://github.com/codefresh-io/cli
+maintainers:
+- name: Itay Shakury
+  email: i.shakury@codefresh.io
+icon: https://raw.githubusercontent.com/codefresh-plugins/cli/master/icon.jpg
 envs:
-  - name: 
-    type: optional
-    description: Path for cfconfig file path
+- name: CFCONFIG
+  type: optional
+  description: Path for cfconfig file path
