@@ -3,6 +3,7 @@ tag: 0.1.0
 version: 0.1.0
 description: Operate on Codefresh resources
 categories:
+- Utility
 - Featured
 keywords:
 - cli
